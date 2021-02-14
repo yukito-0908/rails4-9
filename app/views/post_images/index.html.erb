@@ -1,1 +1,1 @@
-<%= attachment_image_tag post_image.user, :profile_image, :fill, 60, 60, fallback: "no_image.jpg" %>
+<%= render 'post_images/list', post_images: @post_images %>
